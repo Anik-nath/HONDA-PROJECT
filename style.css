@@ -1,0 +1,63 @@
+/* my font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* common style start */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.mytitle{
+    font-weight: 600;
+    font-size: 48px;
+}
+.subtitle{
+    color: #E76F51;
+    font-weight: 600;
+}
+.mybutton{
+    padding: 10px 46px;
+    text-decoration: none;
+    background: #E76F51;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.mybutton2{
+    padding: 10px 46px;
+    text-decoration: none;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.mybutton:hover,
+.mybutton2:hover{
+    color: #fff;
+    background: #df6547;
+}
+
+/* common style end */
+/* others style start */
+#home,
+#footer,
+#mainteinance{
+    background-color: #264653;
+}
+.fetured-bikes img{
+    width: 288px;
+    height: 243px;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+.ratings i{
+    color: #E76F51;
+}
+#mainteinance .effect{
+   transform: scale(0.9);
+}
+#mainteinance .effect:hover{
+    transform: scale(1);
+    transition:  transform 0.5s  ease-in;
+}
+/* others style end */
